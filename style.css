@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+}
+
+  
+section.top-page {
+    height: 100vh;
+}
+.background img{
+    height: 100vh;
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+}
+.header ul{
+    text-align: center;
+}
+.header ul li{
+   list-style: none;
+   display: inline-block;
+}
+.header ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 25px;
+}
+.header ul li a:hover{
+    background-color: #fca21ba8;
+}
+.text h1{
+    position: absolute;
+    color: #ffffff;
+    top: 30%;
+    margin: 0;
+    left: 5%;
+    right: 45%;
+    width: 70%;
+    z-index: 1;
+    font-size: xxx-large;
+    font-family: 'GoldenI';
+    max-width: 1000px;
+    line-height: 2;
+    text-shadow: 0 4px 0 #000000;
+}
+.text h2{
+    position: absolute;
+    color: #ffffff;
+    top: 40%;
+    margin: 0;
+    left: 5%;
+    right: 45%;
+    width: 70%;
+    z-index: 1;
+    font-size: xxx-large;
+    font-family: 'GoldenI';
+    max-width: 700px;
+    line-height: 2;
+    text-shadow: 0 4px 0 #000000;
+}
+.text h3{
+    position: absolute;
+    color: #ffffff;
+    top: 50%;
+    margin: 0;
+    left: 5%;
+    right: 45%;
+    width: 70%;
+    z-index: 1;
+    font-size: xxx-large;
+    font-family: 'GoldenI';
+    max-width: 1000px;
+    line-height: 2;
+    text-shadow: 0 4px 0 #000000;
+}
+.btn {
+    position: absolute;
+    text-align: center;
+    top:69%;
+    width: 190px;
+    right: 30%;
+    left: 42.5%;
+    z-index:2;
+    font-size:x-large;
+    height: 70px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(216, 35, 35);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 6px #efa42e;
+    animation: pulse 1.2s infinite;
+}
+@keyframes pulse{
+    to{
+        box-shadow: 0 0 0 18px rgba(0, 0, 0, 0.01);
+    }
+}
+
+.btn a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn:hover{
+    background-color: #f7c27c;
+    animation: none;
+    color: goldenrod;
+}
+
+            /* NOTRE MENU */
+
+.menu-container {
+    background-color: #f0ac5fa4;
+    display: flex;
+    padding: 2.5px 0 70px;
+    width: 100%;
+
+}
+.menu-container .menu-left, .menu-container .menu-right {
+    padding: 0 50px;
+    width: 50%;
+}
+div{
+    display: block;
+}
+div.section{
+    line-height: 2em;
+}
+.menu-container .title-container {
+    font-size: 1.2vw;
+    padding-top: 4px;
+}
+.menu-container .description p{
+    font-family: 'raleway';
+    font-size: mwdium;
+}
+.section h2{
+    font-family: 'montserratI';
+}
+
+
+            /* A PROPOS DE NOUS*/
+
+.about-container{
+    display: flex;
+    padding: 25px 0 70px;
+}
+.about-left img {
+    margin-top: 120px;
+    width: 869px;
+    height: 500px;
+}
+.about-container .about-left, .about-container .about-right{
+    padding: 0 50px;
+}
+.about-container .section h1 {
+    margin-top: 170px;
+}
+.about-container .description p{
+    font-size: medium;
+    line-height: 2;
+}
+
+
+            /* NOUS CONTACTER */
+
+.contact-container{
+    display: flex;
+    padding: 25px 0 70px;
+    background-color: #f5d8aa;
+    height: 100vh;
+}
+.contact-right img {
+    margin-top: 80px;
+    width: 869px;
+    height: 500px;
+}
+.contact-container .contact-left, .contact-container .contact-right{
+    padding: 0 50px;
+}
+.section h1 {
+    margin-top: 110px;
+    font-family: 'moule';
+    text-emphasis: 2em;
+    color: rgb(24, 24, 68);
+}
+.contact-container .description h4{
+    font-family: 'ralewayI';
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0.575);
+    
+}
+
+            /* footer */
+footer{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 100vww;
+    font-family: 'moule';
+    padding-top: 40px;
+    color: rgb(243, 155, 23);
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h5{
+    font-size:1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 1000px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+    text-decoration: none;
+}
+.footer-bottom{
+    background-color: rgb(255, 255, 255);
+    width: 100vww;
+    padding: 20px ;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+}
+.footer-bottom span{
+    opacity: 0.6;
+    font-weight: 200;
+}
+
+
+
+
+
+
+            /* fonts */
+
+/* STAY CLASSY */
+@font-face {
+    font-family: 'stay_classy_sldtregular';
+    src: url('font/stay_classy_sldt-webfont.woff2') format('woff2'),
+         url('font/stay_classy_sldt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* GOLDEN DAY */
+@font-face {
+    font-family: 'GoldenI';
+    src: url('font/GoldenI.woff2') format('woff2'),
+         url('font/GoldenI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Golden';
+    src: url('font/Golden.woff2') format('woff2'),
+         url('font/Golden.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GoldenL';
+    src: url('font/GoldenL.woff2') format('woff2'),
+         url('font/GoldenL.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* RALEWAY */
+@font-face {
+    font-family: 'ralewayI';
+    src: url('font/ralewayI.woff2') format('woff2'),
+         url('font/ralewayI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'raleway';
+    src: url('font/raleway.woff2') format('woff2'),
+         url('font/raleway.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* MONTSERRAT */
+@font-face {
+    font-family: 'montserratI';
+    src: url('font/montserratI.woff2') format('woff2'),
+         url('font/montserratI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url('font/montserrat.woff2') format('woff2'),
+         url('font/montserrat.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* MOULE */
+@font-face {
+    font-family: 'moule';
+    src: url('font/moule.woff2') format('woff2'),
+         url('font/moule.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
