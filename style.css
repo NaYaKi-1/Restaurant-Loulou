@@ -138,12 +138,11 @@ div.section{
     line-height: 2em;
 }
 .menu-container .title-container {
-    font-size: 1.2vw;
     padding-top: 4px;
 }
 .menu-container .description p{
     font-family: 'raleway';
-    font-size: mwdium;
+    font-size: 1vw;
 }
 .section h2{
     font-family: 'montserratI';
@@ -155,14 +154,16 @@ div.section{
 .about-container{
     display: flex;
     padding: 25px 0 70px;
+    height: 100vh;
 }
 .about-left img {
-    margin-top: 120px;
-    width: 869px;
-    height: 500px;
+    margin-top: 100px;
+    width: 100%;
+    height: 75%;
 }
 .about-container .about-left, .about-container .about-right{
     padding: 0 50px;
+    width: 50%;
 }
 .about-container .section h1 {
     margin-top: 170px;
@@ -183,14 +184,15 @@ div.section{
 }
 .contact-right img {
     margin-top: 80px;
-    width: 869px;
-    height: 500px;
+    width: 100%;
+    height: 75%;
 }
 .contact-container .contact-left, .contact-container .contact-right{
     padding: 0 50px;
+    width: 50%;
 }
 .section h1 {
-    margin-top: 110px;
+    margin-top: 140px;
     font-family: 'moule';
     text-emphasis: 2em;
     color: rgb(24, 24, 68);
